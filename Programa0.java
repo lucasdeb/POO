@@ -4,12 +4,18 @@ public class Programa0{
         int data = 10;
         char letra;
         boolean b = true;
-        float num = 10.6f;
+        float num1 = 10.6f;
         byte dato1 = 43;
-        short num1 = 100;
+        short num2 = 100;
 
 
 
-        System.out.println(num);
+        System.out.println(num1);
+
+        int[] array = {10,20,30,40,50};
+
+        for(int num : array){
+            System.out.println(num);
+        }
     }
 }

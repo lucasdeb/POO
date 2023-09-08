@@ -15,7 +15,7 @@ public class registroAlumnos {
         int edad = input.nextInt();
 
 
-        while("salir".equals(nombre) == false){
+        while(true){
             try {
                 arrNom[i] = nombre;
                 arrEdad[i] = edad;

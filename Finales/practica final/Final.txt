@@ -1,0 +1,19 @@
+Te pedian un hotel
+Que tenia 3 tipos de habitación, cada una con su precio 
+Y te pedian q hagan un programa q registre a las personas y registre en q habitacion se quedaban
+
+Te pedia q una de esas personas sea el titular de la habitación 
+Despues te pedia q cuando hagan el chek out, te devuelva el total a pagar 
+Si el titular era mayor a cierta edad, tenia descuento 
+Y te pedia que el programa muestre todas las habitaciones y te diga si estaban ocupadas o no
+Todos los datos tenian q meterse pro consola mediante scanner
+Y ademas cada dato q metas tenia q pasar por try and catch
+
+Clases
+Hotel: Habitacion[], Persona[]; checkin(), checkout()
+Habitacion<abstract>: Persona[], TITULAR, ocupada, precio
+	Individual: aplicarDescuento()
+	Doble: SECUNDARIO; aplicarDescuento()
+	Triple: SECUNDARIOS[2]; aplicarDescuento()
+Persona: nombre, apellido, dni, edad
+IDescontable<interface>: EDAD; aplicarDescuento()

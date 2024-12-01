@@ -23,9 +23,23 @@ public class generadorContraseñas {
     }
 
     static String generarContraseña(boolean mayusculas, boolean minusculas, boolean digitos, int len){
+        String min = "abcdefghijklmnopqrstuvwxyz";
+        String may = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String dig = "0123456789";
+        
+        String caracteres = "";
         String contraseña = "";
 
-        
+        if (mayusculas && minusculas && digitos){
+            caracteres += min;
+            caracteres += may;
+            caracteres += dig;
+        }
+
+        else{
+            
+        }
+
 
         return contraseña;
     }

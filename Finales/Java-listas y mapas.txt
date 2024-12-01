@@ -1,0 +1,17 @@
+Metodos de ArrayList:
+.add() -> con elementos
+.get() -> con indices
+.remove() -> con elementos o indices
+.set(,) -> con indice, elemento
+.clear()
+.size()
+.contains() -> con elementos
+
+Metodos de HashMap:
+.put(,) -> con key/value
+.get() -> con keys
+.remove() -> con keys
+.clear()
+.size()
+.keySet()
+.values()

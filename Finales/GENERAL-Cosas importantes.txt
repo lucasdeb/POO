@@ -1,0 +1,4 @@
+En el main si quiero usar otra funcion para darle más prolijidad al codigo, se puede declarandola como el tipo static.
+No se puede usar la ñ, se considera un caracter invalido para variables y funciones.
+Recordar que en composicion debemos instanciar casi de inmediato los objetos componente,
+en caso del hotel es instanciar primero las habitaciones y al hotel componerlo con las habitaciones.

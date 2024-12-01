@@ -1,0 +1,14 @@
+boolean bandera= true;
+while(bandera){
+    try {
+        ...
+        bandera= false;
+    } catch (Exception e) {
+        System.out.println("ERROR: "+e+"\n...");
+        b= miScanner;
+    }
+}
+Posibles excepciones:
+ArithmeticException
+InputMismatchException
+RuntimeException
